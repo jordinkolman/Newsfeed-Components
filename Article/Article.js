@@ -191,7 +191,7 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
 
   
   //Set up button events for functionality
-  buttonPanel.addEventListener('click', event => {
+  buttonPanel.addEventListener('click', function(){
     // 2. Content becomes visible when expand button is clicked, and hidden when retract is clicked
     expandButton.classList.toggle('hide-btn');
     retractButton.classList.toggle('hide-btn')

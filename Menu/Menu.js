@@ -37,9 +37,8 @@ let menuItems = [
 
 const header = document.querySelector('.header');
 
-menuItems.forEach(data => {
-  header.appendChild(createMenu(data.menuItems))
-})
+
+  header.appendChild(createMenu(menuItems))
 
 function createMenu(){
   const menu = document.createElement('div');
@@ -47,7 +46,6 @@ function createMenu(){
   const menuContent = document.createElement('div');
   const menuButton = document.querySelector('.menu-button');
 
-  menu.appendChild(menuButton);
   menu.appendChild(menuContent);
   menuContent.appendChild(menuList);
 
@@ -59,8 +57,7 @@ function createMenu(){
     menuList.appendChild(listItem);
   })
 
-  menuButton.addEventListener('click', event => {
-    console.log('menu opened');
+  menuButton.addEventListener('click', function(){
     menuContent.classList.toggle('menu--open');
   })
 

@@ -101,7 +101,7 @@ const data = [
 
   Hint: You will need to use createElement more than once here!
 
-  Your function should take either an object as it's one argument, or 5 separate arguments mapping to each peice of the data object above.
+  Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
 
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
 
@@ -112,3 +112,62 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
+
+const articles = document.querySelector('.articles');
+
+data.forEach(data => {
+  articles.appendChild(createArticle(data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph))
+});
+
+function createArticle(title, date, firstParagraph, secondParagraph, thirdParagraph) {
+  // defining elements of component
+  const article = document.createElement('div');
+  const articleHeader = document.createElement('div');
+  const articleTitle = document.createElement('h2');
+  const articleDate = document.createElement('div');
+  const articleContent = document.createElement('div');
+  const articleParagraphOne = document.createElement('div');
+  const articleParagraphTwo = document.createElement('div');
+  const articleParagraphThree = document.createElement('div');
+  const buttonPanel = document.createElement('div');
+  const expandButton = document.createElement('button');
+  const retractButton = document.createElement('button');
+
+  // Set up element structure within component
+  article.appendChild(articleHeader);
+  article.appendChild(articleContent);
+  article.appendChild(buttonPanel);
+  articleHeader.appendChild(articleTitle);
+  articleHeader.appendChild(articleDate);
+  articleContent.appendChild(articleParagraphOne);
+  articleContent.appendChild(articleParagraphTwo);
+  articleContent.appendChild(articleParagraphThree);
+  buttonPanel.appendChild(expandButton);
+  buttonPanel.appendChild(retractButton);
+
+
+  // Set up class names for elements
+  article.classList.add('article');
+  articleDate.classList.add('date');
+  expandButton.classList.add('expandButton');
+  retractButton.classList.add('expandButton', 'hide-btn');
+
+  //Define JSON Data/text content for elements
+  articleTitle.textContent = title;
+  articleDate.textContent = date;
+  articleParagraphOne.textContent = firstParagraph;
+  articleParagraphTwo.textContent = secondParagraph;
+  articleParagraphThree.textContent = thirdParagraph;
+  expandButton.textContent = 'Expand';
+  retractButton.textContent = 'Retract';
+
+  
+  //Set up button events for functionality
+  buttonPanel.addEventListener('click', event => {
+    // 2. Content becomes visible when expand button is clicked, and hidden when retract is clicked
+    expandButton.classList.toggle('hide-btn');
+    retractButton.classList.toggle('hide-btn')
+    article.classList.toggle('article-open');
+  })
+  return article;
+}

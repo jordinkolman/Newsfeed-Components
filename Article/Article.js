@@ -85,7 +85,35 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
-  }
+  },
+  {
+    title: 'Test Article Number 1',
+    date: 'July 10th, 2019',
+    firstParagraph: `I'm writing this to test to make sure my componenet works. I'm not very good at copy writing so the rest of the paragraphs 
+          gonna be pretty interesting. let's see what they have to say! `,
+
+    secondParagraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Elementum eu facilisis sed odio morbi. Malesuada fames ac turpis egestas integer eget aliquet. Ultricies mi quis hendrerit dolor. Nibh mauris cursus mattis molestie a iaculis. Morbi tincidunt augue interdum velit. Morbi tristique senectus et netus et. Nunc id cursus metus aliquam eleifend mi in. Volutpat consequat mauris nunc congue. In mollis nunc sed id semper risus. Ac orci phasellus egestas tellus rutrum tellus. Ornare lectus sit amet est. Quis blandit turpis cursus in hac habitasse platea dictumst quisque.`,
+
+    thirdParagraph: `Malesuada proin libero nunc consequat. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Odio pellentesque diam volutpat commodo sed. Lorem mollis aliquam ut porttitor leo a diam sollicitudin. Posuere morbi leo urna molestie. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Natoque penatibus et magnis dis parturient. Neque convallis a cras semper auctor neque vitae tempus quam. Amet purus gravida quis blandit turpis. Habitant morbi tristique senectus et netus et malesuada.`
+  },
+  {
+    title: 'Test Article Number 2',
+    date: 'July 10th, 2019',
+    firstParagraph: `Eget mauris pharetra et ultrices. Lectus vestibulum mattis ullamcorper velit. Suspendisse ultrices gravida dictum fusce ut placerat orci. Massa vitae tortor condimentum lacinia quis. Consequat ac felis donec et odio pellentesque diam. Cras fermentum odio eu feugiat pretium nibh. Lacus sed turpis tincidunt id. Auctor urna nunc id cursus metus aliquam eleifend. In mollis nunc sed id semper risus in hendrerit gravida. Pretium nibh ipsum consequat nisl vel pretium lectus. Eget egestas purus viverra accumsan in nisl nisi scelerisque.`,
+
+    secondParagraph: `Sem integer vitae justo eget. Aenean sed adipiscing diam donec. Amet justo donec enim diam vulputate ut pharetra sit amet. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Adipiscing at in tellus integer feugiat scelerisque varius. Urna et pharetra pharetra massa. Pretium vulputate sapien nec sagittis. Tellus mauris a diam maecenas. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Rhoncus est pellentesque elit ullamcorper. Sit amet consectetur adipiscing elit. Nisi scelerisque eu ultrices vitae auctor. Malesuada proin libero nunc consequat interdum varius sit amet mattis. In ornare quam viverra orci sagittis. Tempor commodo ullamcorper a lacus.`,
+
+    thirdParagraph: `In vitae turpis massa sed elementum tempus. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Leo a diam sollicitudin tempor id eu nisl nunc mi. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Consectetur adipiscing elit ut aliquam purus sit. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nec ullamcorper sit amet risus nullam eget felis eget. Ipsum nunc aliquet bibendum enim facilisis.`
+  },
+  {
+    title: 'Test Article Number 3',
+    date: 'July 10th, 2019',
+    firstParagraph: `Phasellus egestas tellus rutrum tellus pellentesque eu. Fames ac turpis egestas integer eget aliquet nibh praesent. Egestas maecenas pharetra convallis posuere morbi leo. Augue neque gravida in fermentum. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Ac auctor augue mauris augue neque gravida in fermentum et. Vitae tortor condimentum lacinia quis vel eros donec. Tellus rutrum tellus pellentesque eu tincidunt tortor. Lacus vel facilisis volutpat est velit egestas. Lacinia quis vel eros donec ac odio tempor orci dapibus. Mattis nunc sed blandit libero volutpat sed cras. Venenatis cras sed felis eget velit aliquet sagittis id. Vitae justo eget magna fermentum iaculis. Sed vulputate mi sit amet mauris commodo quis. Tortor consequat id porta nibh venenatis cras sed felis eget. Urna nec tincidunt praesent semper.`,
+
+    secondParagraph: `Ullamcorper morbi tincidunt ornare massa eget. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Ornare arcu dui vivamus arcu. Augue neque gravida in fermentum et sollicitudin ac orci. Diam phasellus vestibulum lorem sed risus ultricies. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Tellus id interdum velit laoreet. Arcu felis bibendum ut tristique. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Nunc pulvinar sapien et ligula. Lacus vel facilisis volutpat est velit egestas. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Elit sed vulputate mi sit amet mauris. Malesuada fames ac turpis egestas sed tempus. Vitae congue eu consequat ac. Tincidunt lobortis feugiat vivamus at augue. Nisl purus in mollis nunc.`,
+
+    thirdParagraph: `Gravida rutrum quisque non tellus orci. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Ut morbi tincidunt augue interdum velit euismod in. Bibendum est ultricies integer quis auctor elit sed. Consequat nisl vel pretium lectus quam id. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Arcu cursus vitae congue mauris rhoncus. Nec tincidunt praesent semper feugiat. Sed egestas egestas fringilla phasellus faucibus. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem. Amet purus gravida quis blandit turpis cursus in.`
+  },
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
@@ -101,7 +129,7 @@ const data = [
 
   Hint: You will need to use createElement more than once here!
 
-  Your function should take either an object as it's one argument, or 5 separate arguments mapping to each peice of the data object above.
+  Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
 
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
 
@@ -112,3 +140,62 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
+
+const articles = document.querySelector('.articles');
+
+data.forEach(data => {
+  articles.appendChild(createArticle(data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph))
+});
+
+function createArticle(title, date, firstParagraph, secondParagraph, thirdParagraph) {
+  // defining elements of component
+  const article = document.createElement('div');
+  const articleHeader = document.createElement('div');
+  const articleTitle = document.createElement('h2');
+  const articleDate = document.createElement('div');
+  const articleContent = document.createElement('div');
+  const articleParagraphOne = document.createElement('div');
+  const articleParagraphTwo = document.createElement('div');
+  const articleParagraphThree = document.createElement('div');
+  const buttonPanel = document.createElement('div');
+  const expandButton = document.createElement('button');
+  const retractButton = document.createElement('button');
+
+  // Set up element structure within component
+  article.appendChild(articleHeader);
+  article.appendChild(articleContent);
+  article.appendChild(buttonPanel);
+  articleHeader.appendChild(articleTitle);
+  articleHeader.appendChild(articleDate);
+  articleContent.appendChild(articleParagraphOne);
+  articleContent.appendChild(articleParagraphTwo);
+  articleContent.appendChild(articleParagraphThree);
+  buttonPanel.appendChild(expandButton);
+  buttonPanel.appendChild(retractButton);
+
+
+  // Set up class names for elements
+  article.classList.add('article');
+  articleDate.classList.add('date');
+  expandButton.classList.add('expandButton');
+  retractButton.classList.add('expandButton', 'hide-btn');
+
+  //Define JSON Data/text content for elements
+  articleTitle.textContent = title;
+  articleDate.textContent = date;
+  articleParagraphOne.textContent = firstParagraph;
+  articleParagraphTwo.textContent = secondParagraph;
+  articleParagraphThree.textContent = thirdParagraph;
+  expandButton.textContent = 'Expand';
+  retractButton.textContent = 'Retract';
+
+  
+  //Set up button events for functionality
+  buttonPanel.addEventListener('click', function(){
+    // 2. Content becomes visible when expand button is clicked, and hidden when retract is clicked
+    expandButton.classList.toggle('hide-btn');
+    retractButton.classList.toggle('hide-btn')
+    article.classList.toggle('article-open');
+  })
+  return article;
+}
